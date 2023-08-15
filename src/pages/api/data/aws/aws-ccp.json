@@ -1,0 +1,30 @@
+{
+	"exam": "AWS CCP Exam",
+	"examCode": "AWS-CCP",
+	"examLink": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+	"examPriceInDollar": "100",
+	"examDurationInMinutes": "90",
+	"examPassingScore": "700",
+	"examLanguage": "English, Japanese, Korean, Simplified Chinese",
+	"examFormat": "Multiple choice, multiple answer",
+	"examType": "Associate",
+	"examAudience": "Individuals who have basic knowledge of AWS Cloud",
+	"examObjectiveLink": "https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf",
+	"questionTypes": ["single", "multiple"],
+	"questions": [
+		{
+			"id": 1,
+			"question": "A company is planning to run a global marketing application in the AWS Cloud. The application will feature videos that can be viewed by users. The company must ensure that all users can view these videos with low latency.",
+			"questionType": "single",
+			"options": {
+				"a": "AWS Auto Scaling",
+				"b": "Amazon Kinesis Video Streams",
+				"c": "Elastic Load Balancing",
+				"d": "Amazon CloudFront"
+			},
+			"answer": ["d"],
+			"answerDescription": "",
+			"answerLink": "https://aws.amazon.com/cloudfront/"
+		}
+	]
+}
