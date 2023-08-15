@@ -1,4 +1,4 @@
-# Next.js tailwindcss emotion ant.d Boilerplate
+# Next.js tailwindcss emotion ant.d Boilerplate for # Aws-Exam-Preparation-Material 
 
 ## Installation
 
@@ -53,5 +53,4 @@ Open http://localhost:3000 with your browser to see the result.
 
 ## Author
 
-- [**Beygee**](https://www.github.com/beygee) [![GitHub followers](https://img.shields.io/github/followers/beygee.svg?style=social)](https://github.com/beygee)
-"# Aws-Exam-Preparation-Material" 
+- [**TheSohailJafri**](https://www.github.com/thesohailjafri) [![GitHub followers](https://img.shields.io/github/followers/thesohailjafri.svg?style=social)](https://github.com/thesohailjafri)
