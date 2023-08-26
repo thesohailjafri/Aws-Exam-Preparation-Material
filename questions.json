@@ -4972,6 +4972,148 @@
 			"answer": ["b", "d"],
 			"answerDescription": "",
 			"answerLink": ""
+		},
+		{
+			"id": 351,
+			"question": "A company is planning to build a workload in the AWS Cloud. The company needs to estimate the costs of the network, compute, storage, and database for the workload. Which AWS service or tool should the company use to generate this estimate?",
+			"questionType": "single",
+			"options": {
+				"a": "AWS Budgets",
+				"b": "AWS Organizations",
+				"c": "Cost Explorer",
+				"d": "AWS Pricing Calculator"
+			},
+			"answer": ["d"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 352,
+			"question": "A user is a new AWS account owner who has no special access requirements. What should this user do with the AWS account root user access keys?",
+			"questionType": "single",
+			"options": {
+				"a": "Share the keys with all relevant internal users so that those users can programmatically access AWS services.",
+				"b": "Post the keys on GitHub to provide development teams with access to AWS services.",
+				"c": "Use the keys for access, but do not share the keys with anyone.",
+				"d": "Delete the keys and create IAM users."
+			},
+			"answer": ["d"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 353,
+			"question": "Which AWS service allows for file sharing between multiple Amazon EC2 instances?",
+			"questionType": "single",
+			"options": {
+				"a": "AWS Direct Connect",
+				"b": "AWS Snowball Edge",
+				"c": "AWS Backup",
+				"d": "Amazon Elastic File System (Amazon EFS)"
+			},
+			"answer": ["d"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 354,
+			"question": "A company is running and managing its own Docker environment on Amazon EC2 instances. The company wants an alternative to help manage cluster size, scheduling, and environment maintenance. Which AWS service meets these requirements?",
+			"questionType": "single",
+			"options": {
+				"a": "AWS Lambda",
+				"b": "Amazon RDS",
+				"c": "AWS Fargate",
+				"d": "Amazon Athena"
+			},
+			"answer": ["c"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 355,
+			"question": "Which databases are available on Amazon RDS? (Choose two.)",
+			"questionType": "multiple",
+			"options": {
+				"a": "Sybase",
+				"b": "Microsoft SQL Server",
+				"c": "IBM Db2",
+				"d": "MongoDB",
+				"e": "PostgreSQL"
+			},
+			"answer": ["b", "e"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 356,
+			"question": "Which Amazon S3 feature or storage class uses the AWS backbone network and edge locations to reduce latencies from the end user to Amazon S3?",
+			"questionType": "single",
+			"options": {
+				"a": "S3 Cross-Region Replication",
+				"b": "S3 Transfer Acceleration",
+				"c": "S3 Event Notifications",
+				"d": "S3 Standard-Infrequent Access (S3 Standard-IA)"
+			},
+			"answer": ["b"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 357,
+			"question": "Which design principles of the AWS Well-Architected Framework help increase reliability? (Choose two.)",
+			"questionType": "multiple",
+			"options": {
+				"a": "Automatically recover from failure.",
+				"b": "Enable traceability.",
+				"c": "Scale horizontally to increase workload availability.",
+				"d": "Automate security best practices.",
+				"e": "Keep people away from data."
+			},
+			"answer": ["a", "c"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 358,
+			"question": "Management at a large company wants to avoid long-term contracts and is interested in AWS to move from fixed costs to variable costs. What is the value proposition of AWS for this company?",
+			"questionType": "single",
+			"options": {
+				"a": "Economy of scale",
+				"b": "Pay-as-you-go pricing",
+				"c": "Volume discounts",
+				"d": "Cost optimization"
+			},
+			"answer": ["b"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 359,
+			"question": "Which AWS service should a company use to decouple large monolithic applications into smaller microservices components?",
+			"questionType": "single",
+			"options": {
+				"a": "AWS Direct Connect",
+				"b": "Amazon Lightsail",
+				"c": "Amazon Simple Queue Service (Amazon SQS)",
+				"d": "Amazon CloudWatch"
+			},
+			"answer": ["c"],
+			"answerDescription": "",
+			"answerLink": ""
+		},
+		{
+			"id": 360,
+			"question": "A company's system administrator discovers that someone logged in to the company's AWS account during the weekend and terminated an Amazon EC2 instance. Which AWS service should the system administrator use to identify who made this change?",
+			"questionType": "single",
+			"options": {
+				"a": "Amazon Inspector",
+				"b": "Amazon Pinpoint",
+				"c": "AWS CloudTrail",
+				"d": "AWS Trusted Advisor"
+			},
+			"answer": ["c"],
+			"answerDescription": "",
+			"answerLink": ""
 		}
 	]
 }
