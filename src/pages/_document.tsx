@@ -1,22 +1,16 @@
-import Document, { Html, Main, NextScript, DocumentContext } from 'next/document'
-import { extractCritical } from '@emotion/server'
-
-export default class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx)
-    const page = await ctx.renderPage()
-    const styles = extractCritical(page.html)
-    return { ...initialProps, ...page, ...styles }
-  }
-
-  render() {
-    return (
-      <Html lang="en">
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    )
-  }
+import { ColorModeScript } from '@chakra-ui/react';
+import { Html, Head, Main, NextScript } from 'next/document';
+import theme from '../app/theme';
+export default function Document() {
+	return (
+		<Html lang='en'>
+			<Head />
+			<body>
+				{/* 👇 Here's the script */}
+				<ColorModeScript initialColorMode={theme.config.initialColorMode} />
+				<Main />
+				<NextScript />
+			</body>
+		</Html>
+	);
 }
