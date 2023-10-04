@@ -1,0 +1,14 @@
+[
+	{
+		"title": "AWS Certified Cloud Practitioner",
+		"description": "AWS Certified Cloud Practitioner",
+		"date_posted": "2020-01-01",
+		"slug": "/aws/aws-certified-cloud-practitioner"
+	},
+	{
+		"title": "AWS Certified Solutions Architect - Associate",
+		"description": "AWS Certified Solutions Architect - Associate",
+		"date_posted": "2020-01-01",
+		"slug": "/aws/aws-certified-solutions-architect-associate"
+	}
+]
