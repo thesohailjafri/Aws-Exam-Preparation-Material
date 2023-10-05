@@ -1,0 +1,51 @@
+[
+	{
+		"exam": "AWS Certified Cloud Practitioner",
+		"examCode": "AWS-CCP",
+		"examLink": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+		"examPriceInDollar": "100",
+		"examDurationInMinutes": "90",
+		"examPassingScore": "700",
+		"examMaxScore": "1000",
+		"examLanguage": "English, Japanese, Korean, Simplified Chinese",
+		"examFormat": "Multiple choice, multiple answer",
+		"examType": "Associate",
+		"examAudience": "Individuals who have basic knowledge of AWS Cloud",
+		"examObjectiveLink": "https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf",
+		"examImage": "/images/aws-certified-cloud-practitioner.png",
+		"examDomains": [
+			"Cloud Computing",
+			"Data Science",
+			"Machine Learning",
+			"Web Development",
+			"Mobile Development",
+			"DevOps",
+			"Cyber Security"
+		],
+		"questionTypes": ["single", "multiple"]
+	},
+	{
+		"exam": "AWS Solutions Architect Associate",
+		"examCode": "AWS-SAA",
+		"examLink": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+		"examPriceInDollar": "150",
+		"examDurationInMinutes": "130",
+		"examPassingScore": "720",
+		"examMaxScore": "1000",
+		"examLanguage": "English, Japanese, Korean, Simplified Chinese",
+		"examFormat": "Multiple choice, multiple answer",
+		"examType": "Associate",
+		"examAudience": "Individuals who have basic knowledge of AWS Cloud",
+		"examObjectiveLink": "https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf",
+		"examImage": "/images/aws-certified-solutions-architect-associate.png",
+		"examDomains": [
+			"Cloud Computing",
+			"Data Science",
+			"Machine Learning",
+			"Web Development",
+			"Mobile Development",
+			"DevOps",
+			"Cyber Security"
+		]
+	}
+]

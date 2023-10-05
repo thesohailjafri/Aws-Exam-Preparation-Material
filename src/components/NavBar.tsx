@@ -40,18 +40,13 @@ export default function WithSubnavigation() {
 			<Flex
 				color={useColorModeValue('black', 'white')}
 				minH={'60px'}
-				py={{ base: 2 }}
-				px={{ base: 4 }}
+				p={{ base: 2 }}
 				borderBottom={1}
 				align={'center'}
 				maxW={'container.xl'}
 				marginX={'auto'}
 			>
-				<Flex
-					flex={{ base: 1, lg: 'auto' }}
-					ml={{ base: -2 }}
-					display={{ base: 'flex', lg: 'none' }}
-				>
+				<Flex flex={{ base: 1, lg: 'auto' }} display={{ base: 'flex', lg: 'none' }}>
 					<IconButton
 						onClick={onToggle}
 						icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />}
@@ -264,12 +259,14 @@ const ColorModeSwitch = () => {
 	const { toggleColorMode, colorMode } = useColorMode();
 
 	return (
-		<Button
-			_hover={{ bg: useColorModeValue('orange.200', 'orange.800') }}
-			bg={useColorModeValue('orange.100', 'orange.900')}
+		<IconButton
 			onClick={toggleColorMode}
-		>
-			{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-		</Button>
+			icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+			variant={'ghost'}
+			aria-label={'Toggle Navigation'}
+			_hover={{
+				bg: useColorModeValue('orange.200', 'orange.800'),
+			}}
+		/>
 	);
 };

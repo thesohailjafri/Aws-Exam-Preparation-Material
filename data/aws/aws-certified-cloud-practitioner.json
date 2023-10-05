@@ -5,11 +5,22 @@
 	"examPriceInDollar": "100",
 	"examDurationInMinutes": "90",
 	"examPassingScore": "700",
+	"examMaxScore": "1000",
 	"examLanguage": "English, Japanese, Korean, Simplified Chinese",
 	"examFormat": "Multiple choice, multiple answer",
 	"examType": "Associate",
 	"examAudience": "Individuals who have basic knowledge of AWS Cloud",
 	"examObjectiveLink": "https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf",
+	"examImage": "/images/aws-certified-cloud-practitioner.png",
+	"examDomains": [
+		"Cloud Computing",
+		"Data Science",
+		"Machine Learning",
+		"Web Development",
+		"Mobile Development",
+		"DevOps",
+		"Cyber Security"
+	],
 	"questionTypes": ["single", "multiple"],
 	"questions": [
 		{

@@ -10,6 +10,7 @@
 	},
 	"devDependencies": {
 		"@types/axios": "^0.14.0",
+		"@types/http-errors": "^2.0.2",
 		"@types/lodash": "^4.14.199",
 		"@types/node": "^20.7.1",
 		"@types/react": "^18.2.23",
@@ -30,6 +31,7 @@
 		"axios": "^1.5.1",
 		"date-fns": "^2.30.0",
 		"framer-motion": "^10.16.4",
+		"http-errors": "^2.0.0",
 		"lodash": "^4.17.21",
 		"next": "^13.5.3",
 		"react": "^18.2.0",
