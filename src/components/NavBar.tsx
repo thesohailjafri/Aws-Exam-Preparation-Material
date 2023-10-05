@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import {
 	ChevronDownIcon,
@@ -7,7 +7,7 @@ import {
 	HamburgerIcon,
 	MoonIcon,
 	SunIcon,
-} from '@chakra-ui/icons';
+} from '@chakra-ui/icons'
 import {
 	Box,
 	Button,
@@ -24,11 +24,11 @@ import {
 	useColorMode,
 	useColorModeValue,
 	useDisclosure,
-} from '@chakra-ui/react';
-import Link from 'next/link';
+} from '@chakra-ui/react'
+import Link from 'next/link'
 
 export default function WithSubnavigation() {
-	const { isOpen, onToggle } = useDisclosure();
+	const { isOpen, onToggle } = useDisclosure()
 
 	return (
 		<Box
@@ -74,28 +74,28 @@ export default function WithSubnavigation() {
 				<MobileNav />
 			</Collapse>
 		</Box>
-	);
+	)
 }
 
 const Logo = () => {
-	const { colorMode } = useColorMode();
+	const { colorMode } = useColorMode()
 	return (
 		<Link href='/'>
 			<Image
-				src={colorMode === 'light' ? './logo-dark.svg' : './logo-light.svg'}
+				src={colorMode === 'light' ? '/logo-dark.svg' : '/logo-light.svg'}
 				objectFit='cover'
 				paddingTop='2'
 				width={150}
 				alt='logo'
 			/>
 		</Link>
-	);
-};
+	)
+}
 
 const DesktopNav = () => {
-	const linkColor = useColorModeValue('black', 'white');
-	const linkHoverColor = useColorModeValue('orange.800', 'orange.200');
-	const popoverContentBgColor = useColorModeValue('orange.100', 'orange.900');
+	const linkColor = useColorModeValue('black', 'white')
+	const linkHoverColor = useColorModeValue('orange.800', 'orange.200')
+	const popoverContentBgColor = useColorModeValue('orange.100', 'orange.900')
 
 	return (
 		<Stack direction={'row'} spacing={4} align={'center'}>
@@ -139,8 +139,8 @@ const DesktopNav = () => {
 				</Box>
 			))}
 		</Stack>
-	);
-};
+	)
+}
 
 const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
 	return (
@@ -165,8 +165,8 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
 				</Flex>
 			</Stack>
 		</Box>
-	);
-};
+	)
+}
 
 const MobileNav = () => {
 	return (
@@ -175,13 +175,13 @@ const MobileNav = () => {
 				<MobileNavItem key={navItem.label} {...navItem} />
 			))}
 		</Stack>
-	);
-};
+	)
+}
 
 const MobileNavItem = ({ label, children, href }: NavItem) => {
-	const { isOpen, onToggle } = useDisclosure();
-	const linkColor = useColorModeValue('black', 'white');
-	const linkHoverColor = useColorModeValue('orange.800', 'orange.200');
+	const { isOpen, onToggle } = useDisclosure()
+	const linkColor = useColorModeValue('black', 'white')
+	const linkHoverColor = useColorModeValue('orange.800', 'orange.200')
 	return (
 		<Stack spacing={4} onClick={children && onToggle}>
 			<Box
@@ -226,14 +226,14 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
 				</Stack>
 			</Collapse>
 		</Stack>
-	);
-};
+	)
+}
 
 interface NavItem {
-	label: string;
-	subLabel?: string;
-	children?: Array<NavItem>;
-	href?: string;
+	label: string
+	subLabel?: string
+	children?: Array<NavItem>
+	href?: string
 }
 
 const NAV_ITEMS: Array<NavItem> = [
@@ -253,10 +253,10 @@ const NAV_ITEMS: Array<NavItem> = [
 		label: 'Want to Contribute?',
 		href: 'https://github.com/thesohailjafri/Aws-Exam-Preparation-Material/issues',
 	},
-];
+]
 
 const ColorModeSwitch = () => {
-	const { toggleColorMode, colorMode } = useColorMode();
+	const { toggleColorMode, colorMode } = useColorMode()
 
 	return (
 		<IconButton
@@ -268,5 +268,5 @@ const ColorModeSwitch = () => {
 				bg: useColorModeValue('orange.200', 'orange.800'),
 			}}
 		/>
-	);
-};
+	)
+}
